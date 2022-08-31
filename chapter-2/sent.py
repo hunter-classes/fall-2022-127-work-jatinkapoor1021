@@ -27,7 +27,3 @@ final = P * ( ((1 + (r/n)) ** (n * t)) )
 
 print ("The final amount after", t, "years is", final)
 
-8. 
-r = float(input("Enter radius of circle: "))
-a = 3.14159 * r * r
-print("Area of circle =", a)
