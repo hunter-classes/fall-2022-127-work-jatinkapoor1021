@@ -1,3 +1,6 @@
+The following code works for uppercase as well, as per the hw from last week: 
+
+
 def piglatin(word):
     
     word = word.lower()
