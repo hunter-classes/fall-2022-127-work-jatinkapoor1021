@@ -1,0 +1,42 @@
+10.
+def countLength5(lst):
+    count = 0
+    for x in lst:
+        if len(x)==5:
+            count += 1
+    return count
+
+print(countLength5(["flat","slide","run","swings","dance","hat"]))
+
+11. 
+import random
+
+def sum(lst):
+    sum = 1
+    index = 0
+    while index < len(lst) and lst[index] % 2 != 0:
+        sum = sum + lst[index]
+        index = index + 1
+    return sum
+
+lst = []
+for i in range(100):
+    lst.append(random.randint(0,1000))
+
+print(sum(lst))
+
+
+12.
+def up_to_sam(lst):
+    counter = 0
+    for word in lst:
+        if word == "sam":
+            counter += 1
+            return counter
+        else:
+            counter +=1
+    return counter
+text ="There is a very good boy named Sam."
+words = text.split()
+print(words)
+print(up_to_sam(words))
