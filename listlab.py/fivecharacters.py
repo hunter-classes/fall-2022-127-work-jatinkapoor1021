@@ -6,7 +6,7 @@ def upperCase(s):
     
     return news
     
-# calling fnc upperFnc
+
 print(upperCase("college")) 
 print(upperCase("remote")) 
 print(upperCase("sports"))
