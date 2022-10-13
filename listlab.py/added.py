@@ -5,7 +5,6 @@ def addlist(list1, list2):
         
     return newlist
 
-# calling fnc addlist
 list1 = [1,2,3]
 list2 = [10,20,30]
 addlist = addlist(list1, list2)
