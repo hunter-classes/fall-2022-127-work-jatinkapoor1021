@@ -131,21 +131,19 @@ def testFindLargest(size,maxValue):
     fastmode:
       
 def fastMode(dataset):
-    #assuming dataset is a list/set/tuple 
     
-    #list of 100 slots
     slots=[]
     for i in range(100):
         slots.append(0)
         
-    #loop through the dataset
+
     for i in dataset:
         slots[i]+=1
     
-    #find index with highest value
-    ind=0
+    
+    index=0
     for i in range(len(slots)):
-        if slots[i]>slots[ind]:
-            ind=i
-    return ind
+        if slots[i]>slots[index]:
+            index=i
+    return index
 print(fastMode([1,2,3,3,3,4,7,7,6,8]))
