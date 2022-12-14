@@ -1,3 +1,6 @@
+#Both working if and loop and working function done
+
+
 
 #include<iostream>
 using namespace std;
